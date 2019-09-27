@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Italia Walking Tours of Venice</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: rgb(0, 0, 0);
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First banner image */
+.bgimg-1 {
+  background-image: url('images/water.jpg');
+  min-height: 100%;
+}
+
+/* Second image */
+.bgimg-2 {
+    background-image: url("images/italynight.jpeg");
+    min-height: 400px;
+}
+
+/* Third image */
+.bgimg-3 {
+    background-image: url("images/il_fullxfull.383842429_1b31.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style> 
+
+<body>
+
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Italia <span class="w3-hide-small">Walking Tours of Venice</span> </span>
+  </div>
+</div>
+
+<!-- Navigation -->
+<div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu">
+        <span class="sr-only">Click here</span><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="venicetours.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Venice Tours</a>
+    <a href="gallery.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Gallery</a>
+    <a href="companyinformation.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Additional information</a> 
+  </div>
+
+<!-- Navbar on small screens -->
+   <div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium" style="background-color:burlywood">
+     <a href="venicetours.html"class="w3-bar-item w3-button" onclick="toggleFunction()">Venice Tours</a>
+     <a href="gallery.html"class="w3-bar-item w3-button" onclick="toggleFunction()">Gallery</a>
+     <a href="companyinformation.html" class="w3-bar-item w3-button" onclick="toggleFunction()">Additional information</a>
+   </div>
+
+<!-- First Container -->
+<div class="w3-content w3-container w3-padding-64" >
+  <h3 class="w3-center">Venice Tours</h3>
+  <p>
+    Venice Tours include small group Walking Tours, Day Tours & Boat Tours by the Original Italia Walking Tour Company.
+    
+    Our selection of Venice Tours also includes Private Walking Tours and Private Boat Tours. All our Venice Tours are led by expert tour guides and include skip the queue tickets for the must-see sights of Venice.
+    
+    Our Venice Tours also include Day Tours from Venice to the mainland on our popular small group Hill Towns of Veneto Day Trip, our small group Dolomites Day Trip, as well as Private Venice Day Tours to celebrated wine regions and the world-famous Palladian Villas.</p>
+</div>
+
+<!-- Second Parallax Image -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+      <span class="w3-xxlarge w3-text-white w3-wide">Walking Tour</span>
+    </div>
+  </div>
+  
+  <!-- Second Container -->
+  <div class="w3-content w3-container w3-padding-64" >
+      <h3 class="w3-center">St. Mark's Basilica
+      </h3>
+      <p>
+        St Mark's Basilica (Basilica di San Marco) is the most famous of the many churches of Venice and an example of Byzantine architecture in the world. Located just off the Grand Canal, the gleaming basilica overlooks the Piazza San Marco (St. Mark's Square) and adjoins the Doge's Palace. Skip the queue and visit this masterpiece. San Marco is a cathedral,it was the Doge's chapel until it became the seat of the Archbishop of Venice in 1807.</p>
+    </div>
+    
+
+<!-- Third Parallax Image -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+       <span class="w3-xxlarge w3-text-white w3-wide">Boat Tour</span>
+    </div>
+</div>
+  
+  <!-- Third Container -->
+  <div class="w3-content w3-container w3-padding-64" id="about">
+
+      <p>
+        Boat trips include Murano. It is believed that glassmaking in Murano originated in 9th century Rome, with significant Asian influences, as Venice was a major trading port. Muranos reputation as a center for glassmaking was born when the Venetian Republic, fearing fire and destruction of the city's mostly wooden buildings, ordered glassmakers to move their foundries to Murano in 1291. Murano glass is still interwoven with Venetian glass.</p>
+        <h3 class="w3-center">The Grand Canal</h3>
+      <p>
+          Our Grand Canal Boat Tour is quite simply a breathtaking experience of Venice. In the first part of the tour cruise down the Grand Canal at a relaxed pace with photo opportunities, as your guide introduces you to the splendid Palaces, Churches, Bridges and other Monumental buildings that line the main waterway. Learn the history and evolution of the main street of Venice, and be entertained by anecdotes about the famous and infamous people that once lived along this celebrated waterway. 
+      </p>  
+      </div>
+    
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <div class="w3-xlarge w3-section">
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </div>
+    <p>Copyright © Italia Walking Tours Ltd. (for itself and on behalf of its corporate group) 2008-2016. <br>
+      All rights reserved. All copyright and other intellectual property rights in all logos, designs, text, images and other materials on this website are owned by Italia Tours Ltd. <br>and/or its group companies or appear with permission of the relevant owner (including ITAB).</p>
+  </footer>
+  
+  <script>
+      // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else { 
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    var modal = document.getElementById('ticketModal');
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+      </script>
+
+  </body>
+  
+  </html>
